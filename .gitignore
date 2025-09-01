@@ -1,0 +1,73 @@
+# User Data & Personal Files
+uploads/
+generated_workflows/
+document_metadata.json
+
+# Vector Databases & AI Data
+n8n_vector_db/
+backend/n8n_vector_db*/
+n8n_rag_feedback.db
+
+# Personal n8n Data 
+n8n_rag_data/
+n8n_rag_data/chunks/
+n8n_rag_data/metadata/
+n8n_rag_data/nodes/
+n8n_rag_data/templates/
+1_2_n8n_mcp_extractor.py
+1_3_direct_mcp_extractor.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+build/
+dist/
+
+# IDE / Editors
+.vscode/
+.idea/
+.claude/
+CLAUDE.md
+INTEGRATION_EXPANSION_PLAN.md
+README_WEB_UI.md
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+test_*.py
+*.tmp
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
